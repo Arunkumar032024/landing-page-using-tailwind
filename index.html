@@ -8,6 +8,11 @@
     <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- jQuery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <!-- css -->
     <link rel="stylesheet" href="./assets/dist/output.css">
     <!-- <link rel="stylesheet" href="./assets/css/input.css"> -->
 </head>
@@ -24,10 +29,29 @@
         <nav class="flex justify-between items-center p-4 bg-gray-900">
             <h1 class="text-white text-2xl font-bold">Landing Page</h1>
             <i class="fa-solid fa-bars text-white text-2xl hover:cursor-pointer active:scale-95"></i>
+
+            <div class="navbar hidden fixed top-0 bottom-0 left-0 right-0 z-20 p-4" style="background-color: rgba(0,0,0,0.3);">
+                <p class="text-right pb-2 pe-0"><i class="fa-solid fa-xmark text-white text-3xl hover:cursor-pointer active:scale-95"></i></p>
+                <ul class="bg-white rounded-lg p-4 h-[85vh] ">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Servies</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+
         </nav>
     </header>
     <!-- ===================================
         End header section 
      ==================================== -->
+
+
+
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
