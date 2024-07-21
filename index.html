@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,65 +11,124 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <!-- jQuery cdn -->
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
     <!-- css -->
     <link rel="stylesheet" href="./assets/dist/output.css">
     <!-- <link rel="stylesheet" href="./assets/css/input.css"> -->
 </head>
+
 <body class="m-0 p-0">
     <!-- ===================================
         header section 
      ==================================== -->
     <header class="max-w-[1400px] bg-slate-400 mx-auto">
         <div class="flex justify-between items-center p-2 bg-gray-800">
-            <p><i class="fa-solid fa-envelope text-red-900"></i> <a href="mailto:arunkumar032024@gmail.com" class="text-white hover:underline">contact@example.com</a></p>
-            <p><i class="fa-solid fa-mobile-screen text-red-900"></i> <a href="tel: 9084463860" class="text-white  tracking-tighter hover:underline">+91 123 1241 134</a></p>
-        </div>
-        
-        <nav class="flex justify-between items-center p-4 bg-gray-900">
-            <h1 class="text-white text-2xl font-bold">Landing Page</h1>
-            <i class="fa-solid fa-bars text-white text-2xl hover:cursor-pointer active:scale-95"></i>
-
-            <div class="navbar hidden fixed top-0 bottom-0 left-0 right-0 z-20 p-4" style="background-color: rgba(0,0,0,0.3);">
-                <p class="text-right pb-2 pe-0"><i class="fa-solid fa-xmark text-white text-3xl hover:cursor-pointer active:scale-95"></i></p>
-                <ul class="bg-white rounded-lg p-4 h-[85vh] overflow-auto">
-                    <li class="mb-4"><a class="active font-medium hover:text-red-500 transition-colors" href="#home">Home</a></li>
-                    <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors" href="#about">About</a></li>
-                    <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors" href="#services">Servies</a></li>
-                    <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors" href="#portfolio">Portfolio</a></li>
-                    <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors" href="#team">Team</a></li>
-                    <li class="mb-4">
-                        <p class="flex justify-between hover:text-red-500"><span class="font-medium hover:text-red-500 transition-colors" href="#">DropDown</span> <i class="fa-solid fa-angle-down p-2 hover:bg-red-300 hover:text-black rounded-full cursor-pointer"></i></p>
-                        <ul class="shadow-md mt-4 shadow-slate-300 px-4 py-1 bg-slate-50">
-                            <li class="my-4"><a class="font-medium hover:text-red-500 transition-colors" href="#">DropDown 1</a></li>
-                            <li class="mb-4">
-                                <p class="flex justify-between hover:text-red-500"><span class="font-medium hover:text-red-500 transition-colors" href="#">Deep DropDown</span> <i class="fa-solid fa-angle-down p-2 hover:bg-red-300 hover:text-black rounded-full cursor-pointer"></i></p>
-                                <ul class="ps-4 py-1 bg-slate-100 rounded-sm">
-                                    <li class="my-4"><a class="font-medium hover:text-red-500 transition-colors" href="#">Deep DropDown 1</a></li>
-                                    <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors" href="#">Deep DropDown 2</a></li>
-                                    <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors" href="#">Deep DropDown 3</a></li>
-                                    <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors" href="#">Deep DropDown 4</a></li>
-                                    <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors" href="#">Deep DropDown 5</a></li>
-                                </ul>
-                            </li>
-                            <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors" href="#">DropDown 3</a></li>
-                            <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors" href="#">DropDown 4</a></li>
-                        </ul>
-                    </li>
-                    <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            
-
-        </nav>
+            <p><i class="fa-solid fa-envelope text-red-900"></i> <a href="mailto:arunkumar032024@gmail.com"
+                    class="text-white hover:underline">contact@example.com</a></p>
+            <p><i class="fa-solid fa-mobile-screen text-red-900"></i> <a href="tel: 9084463860"
+                    class="text-white  tracking-tighter hover:underline">+91 123 1241 134</a></p>
+        </div>        
     </header>
     <!-- ===================================
         End header section 
      ==================================== -->
 
+     <nav class="max-w-[1400px] mx-auto sticky top-0 z-50 flex justify-between items-center p-4 bg-gray-900">
+        <h1 class="text-white text-2xl font-bold">Landing Page</h1>
+        <i class="fa-solid fa-bars text-white text-2xl hover:cursor-pointer active:scale-95"></i>
+
+        <div class="navbar hidden fixed top-0 bottom-0 left-0 right-0 z-20 p-4"
+            style="background-color: rgba(0,0,0,0.3);">
+            <p class="text-right pb-2 pe-0"><i
+                    class="fa-solid fa-xmark text-white text-3xl hover:cursor-pointer active:scale-95"></i></p>
+            <ul class="bg-white rounded-lg p-4 h-[85vh] overflow-auto">
+                <li class="mb-4"><a class="active font-medium hover:text-red-500 transition-colors"
+                        href="#home">Home</a></li>
+                <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors" href="#about">About</a>
+                </li>
+                <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors"
+                        href="#services">Servies</a></li>
+                <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors"
+                        href="#portfolio">Portfolio</a></li>
+                <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors" href="#team">Team</a>
+                </li>
+                <li class="mb-4">
+                    <p class="flex justify-between hover:text-red-500"><span
+                            class="font-medium hover:text-red-500 transition-colors" href="#">DropDown</span> <i
+                            class="fa-solid fa-angle-down p-2 hover:bg-red-300 hover:text-black rounded-full cursor-pointer"
+                            id="dropdown-icon"></i>
+                    </p>
+                    <ul id="dropdown-list"
+                        class="hidden duration-300 transition-all shadow-md mt-4 shadow-slate-300 px-4 py-1 bg-slate-50">
+                        <li class="my-4"><a class="font-medium hover:text-red-500 transition-colors"
+                                href="#">DropDown 1</a></li>
+                        <li class="mb-4">
+                            <p class="flex justify-between hover:text-red-500"><span
+                                    class="font-medium hover:text-red-500 transition-colors" href="#">Deep
+                                    DropDown</span> <i
+                                    class="fa-solid fa-angle-down p-2 hover:bg-red-300 hover:text-black rounded-full cursor-pointer"
+                                    id="dropdown-nested-icon"></i>
+                            </p>
+                            <ul id="dropdown-nested-list"
+                                class="hidden duration-300 transition-all ps-4 py-1 bg-slate-100 rounded-sm">
+                                <li class="my-4"><a class="font-medium hover:text-red-500 transition-colors"
+                                        href="#">Deep DropDown 1</a></li>
+                                <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors"
+                                        href="#">Deep DropDown 2</a></li>
+                                <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors"
+                                        href="#">Deep DropDown 3</a></li>
+                                <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors"
+                                        href="#">Deep DropDown 4</a></li>
+                                <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors"
+                                        href="#">Deep DropDown 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors"
+                                href="#">DropDown 3</a></li>
+                        <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors"
+                                href="#">DropDown 4</a></li>
+                    </ul>
+                </li>
+                <li class="mb-4"><a class="font-medium hover:text-red-500 transition-colors"
+                        href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- ===================================
+        main section 
+     ==================================== -->
+    <main id="main-section">
+        <!-- ===================================
+        home section 
+        ==================================== -->
+        <section id="home" class="min-h-screen w-full pt-16">home</section>
+        <!-- ===================================
+        End home section 
+        ==================================== -->
+        
+        
+        
+        <!-- ===================================
+        about section 
+        ==================================== -->
+        <section id="about" class="min-h-screen w-full pt-16">about</section>
+        <!-- ===================================
+        End about section 
+        ==================================== -->
+    </main>
+    <!-- ===================================
+        End main section 
+     ==================================== -->
+
+
+
 
 
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
